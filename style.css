@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(./assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+
+/* estilos y sidebar*/
+.navbar{
+    font-family: 'Poppins-Regular';
+}
+.logo{
+    font-family: 'Poppins-Bold';
+}
+.userDate{
+    display: flex;
+}
+.userDate p:nth-child(1){
+    margin-right: 8px;
+}
+
+.sidebar-sticky{
+    padding: 3rem 0;
+    font-family: 'Poppins-Regular';
+}
+.nav-item:hover{
+    transition: all .3s;
+    background: #fff;
+}
+.sidebarMovil{
+    display: none;
+}
+.sidebarDesk{
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+    .sidebar-sticky{
+        padding: .5rem 0;
+        font-family: 'Poppins-Regular';
+    }
+}
+
+/* Contenedor de la pagina */
+.container{
+    font-family: 'Poppins-Regular';
+}
+.container h2{
+    font-family: 'Poppins-bold';
+}
+#list-clientes{
+    display: block;
+}
+#ag-cliente{
+    display: none;
+}
